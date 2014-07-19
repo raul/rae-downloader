@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+foreman run bundle exec rake words:show[$1]

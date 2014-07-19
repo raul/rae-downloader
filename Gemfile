@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "activerecord", require: "active_record"
+gem "foreman"
+gem "multi_json"
+gem "nebrija"
+gem "oj"
+gem "pg"
+gem "rake"
+gem "sidekiq"

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cp .env.sample .env
+bundle install
+bundle exec rake db:create
+bundle exec rake db:migrate
