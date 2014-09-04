@@ -6,7 +6,7 @@ module RaeDownloader
     scope :undefined, -> { where('defined_at IS NULL') }
 
     def define
-      json = HTTPRae.new.search(word)
+      json = Rae.new.search(word)
       update_attributes data: json, defined_at: Time.now
     end
 
